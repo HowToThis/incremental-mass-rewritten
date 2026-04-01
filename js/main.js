@@ -674,8 +674,6 @@ function loop() {
 }
 
 function format(ex, acc=4, max=12, type=player.options.notation) {
-    if (tmp.aprilEnabled && Math.random() < .9) return "Troll"
-
     ex = E(ex)
     neg = ex.lt(0)?"-":""
     if (ex.mag == Infinity) return neg + 'Infinite'

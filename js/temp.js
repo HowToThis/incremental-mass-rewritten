@@ -204,9 +204,6 @@ function resetTemp() {
 
         prevSave: "",
 
-        april: d.getDate() == 1 && d.getMonth() == 3,
-        aprilEnabled: false,
-
         inf_reached: false,
         inf_time: 0,
         inf_limit: Decimal.pow(10,Number.MAX_VALUE),
